@@ -1,0 +1,16 @@
+
+name: linter-check
+
+on: [push]
+jobs:
+  ESLint-Check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Start lint."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn
+      - name: Run EsLint
+        run: make lint
+      - run: echo "🎉 Finish lint."
