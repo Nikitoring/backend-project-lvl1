@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "[![Actions Status](https://github.com/Nikitoring/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Nikitoring/backend-project-lvl1/actions)",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Nikitoring/backend-project-lvl1.git"
   },
-  "author": "",
+  "type": "module",
+  "author": "Nikita Mavrychev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nikitoring/backend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Nikitoring/backend-project-lvl1#readme"
+  "homepage": "https://github.com/Nikitoring/backend-project-lvl1#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
 }
