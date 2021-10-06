@@ -6,5 +6,11 @@
 [![ESLint workflow](https://github.com/Nikitoring/backend-project-lvl1/workflows/linter-check/badge.svg)](https://github.com/Nikitoring/backend-project-lvl1/actions)
 
 ### Asciinema
+Even games
 
 [![asciicast](https://asciinema.org/a/0JDkg7hTKYQteioXUivHmH3hn.svg)](https://asciinema.org/a/0JDkg7hTKYQteioXUivHmH3hn)
+
+
+Expression Game
+
+[![asciicast](https://asciinema.org/a/RX0brbmEFN5uJ7YVAImpt1kwE.svg)](https://asciinema.org/a/RX0brbmEFN5uJ7YVAImpt1kwE)
