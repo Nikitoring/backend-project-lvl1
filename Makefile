@@ -10,6 +10,9 @@ even-game:
 expression-game:
 	node bin/brain-expressions.js
 
+gcd-game:
+	node bin/brain-gcd.js
+
 publish:
 	npm publish --dry-run
 
