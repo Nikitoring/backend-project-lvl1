@@ -13,6 +13,9 @@ expression-game:
 gcd-game:
 	node bin/brain-gcd.js
 
+progression-game:
+	node bin/brain-progression.js
+
 publish:
 	npm publish --dry-run
 
