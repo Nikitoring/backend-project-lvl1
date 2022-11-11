@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 import startGame from '../src/index.js';
 
-const nod = function (a, b) {
+function nod(a, b) {
   if (!b) {
     return a;
   }
 
   return nod(b, a % b);
-};
+}
 
 // function generateNod() {
 //   const symbols = ['+', '-', '*'];
@@ -15,9 +15,9 @@ const nod = function (a, b) {
 // };
 
 function generateExpression() {
-  let firstNum = Math.floor(Math.random() * 100);
-  let secondNum = Math.floor(Math.random() * 100);
-  let result = nod(firstNum, secondNum);
+  const firstNum = Math.floor(Math.random() * 100);
+  const secondNum = Math.floor(Math.random() * 100);
+  const result = nod(firstNum, secondNum);
   return {
     expression: `${firstNum} ${secondNum}`,
     answer: result,

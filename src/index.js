@@ -18,10 +18,10 @@ const generateQuestions = (params) => {
 };
 const startGame = (task, questionsParam) => {
   console.log('Welcome to the Brain Games!');
-  let name = getName();
+  const name = getName();
   console.log(task);
   for (let i = 0; i < 3; i += 1) {
-    let params = questionsParam();
+    const params = questionsParam();
     if (!generateQuestions(params)) {
       console.log(`Let's try again, ${name}!`);
       return;

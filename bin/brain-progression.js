@@ -21,7 +21,7 @@ function generateProgression() {
   progressionString[hiddenIndex] = '..';
   return {
     expression: `${progressionString.join(' ')}`,
-    answer: result
+    answer: result,
   };
 }
 
