@@ -13,6 +13,9 @@ expression-game:
 gcd-game:
 	node bin/brain-gcd.js
 
+calc-game:
+	node bin/brain-calc.js
+
 progression-game:
 	node bin/brain-progression.js
 
