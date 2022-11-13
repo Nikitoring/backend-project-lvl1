@@ -9,7 +9,13 @@ const getName = () => {
 const generateQuestions = (params) => {
   console.log('Question: ', params.expression);
   const answer = readlineSync.question('You answer: ');
-  if (+answer === +params.answer) {
+  let checkAnswer = false;
+  if (params.answerIsString) {
+    checkAnswer = !!(answer === params.answer);
+  } else {
+    checkAnswer = !!(+answer === +params.answer);
+  }
+  if (checkAnswer) {
     console.log('Correct!');
     return true;
   }

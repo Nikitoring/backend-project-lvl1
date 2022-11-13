@@ -19,3 +19,6 @@ Expression Game
 Progression Game
 
 [![asciicast](https://asciinema.org/a/8PEuwn3jlysHDCEQ6VMWUeuWJ.svg)](https://asciinema.org/a/8PEuwn3jlysHDCEQ6VMWUeuWJ)
+
+Prime Game
+[![asciicast](https://asciinema.org/a/qMs1tY2641RjJuew9y9dEthAS.svg)](https://asciinema.org/a/qMs1tY2641RjJuew9y9dEthAS)
