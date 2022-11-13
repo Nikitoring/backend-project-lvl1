@@ -7,7 +7,7 @@ const getName = () => {
 };
 
 const generateQuestions = (params) => {
-  console.log('Question: ', params.expression);
+  console.log('Question:', params.expression);
   const answer = readlineSync.question('You answer: ');
   let checkAnswer = false;
   if (params.answerIsString) {
